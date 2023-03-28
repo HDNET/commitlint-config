@@ -1,0 +1,29 @@
+{
+    "name": "@hdnet/commitlint-config",
+    "version": "0.1.0",
+    "description": "HDNET commitlint-config, implementing HSR-3",
+    "author": "HDNET",
+    "keywords": [
+        "commitlint",
+        "hdnet",
+        "HSR"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HDNET/commitlint-config.git"
+    },
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "@commitlint/config-conventional": "^17.4.4"
+    },
+    "peerDependencies": {
+        "@commitlint/lint": ">= 17"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^17.5.1",
+        "husky": "^8.0.3"
+    }
+}
