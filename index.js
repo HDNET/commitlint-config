@@ -24,11 +24,11 @@ module.exports = {
         // Subjects are sentences and begin uppercase
         'subject-case': [2, 'always', ['sentence-case']],
 
-        // Need of more types like: "dx"
+        // Need of more types like: "dx", "types"
         'type-enum': [
             2,
             'always',
-            ['build', 'chore', 'ci', 'docs', 'dx', 'feat', 'fix', 'perf', 'refactor', 'revert', 'style', 'test'],
+            ['build', 'chore', 'ci', 'docs', 'dx', 'feat', 'fix', 'perf', 'refactor', 'revert', 'style', 'test', 'types'],
         ],
     },
 }
