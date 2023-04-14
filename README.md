@@ -28,3 +28,5 @@ module.exports = {
     },
 }
 ```
+
+4. Add commitlint to you git hook configuration (i.e. using [husky](https://commitlint.js.org/#/guides-local-setup?id=install-husky))
