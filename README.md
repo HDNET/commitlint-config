@@ -12,7 +12,11 @@ through a [shareable config](https://commitlint.js.org/#/concepts-shareable-conf
 
 2. Install dependencies
 ```bash
-$ npm i -D @commitlint/cli @hdnet/commitlint-config
+# $ npm i -D @commitlint/cli @hdnet/commitlint-config
+# ...Oops this does not work yet. But: we'll have it in the npm registry soon.
+# Instead, use:
+
+$ npm i -D @commitlint/cli github:HDNET/commitlint-config
 ```
 
 3. Create commitlint config (i.e. `commitlint.config.js`) and extend from @hdnet/commitlint-config:
