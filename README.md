@@ -34,3 +34,9 @@ module.exports = {
 ```
 
 4. Add commitlint to you git hook configuration (i.e. using [husky](https://commitlint.js.org/#/guides-local-setup?id=install-husky))
+
+
+## Contribute
+
+To setup current node version, you can use [nvm](https://github.com/nvm-sh/nvm) 
+(in this project a [.nvmrc](./.nvmrc) file is maintained).
