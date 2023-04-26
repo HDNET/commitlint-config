@@ -16,6 +16,9 @@
     "files": [
         "index.js"
     ],
+    "scripts": {
+        "prepare": "husky install"
+    },
     "dependencies": {
         "@commitlint/config-conventional": "^17.4.4"
     },
