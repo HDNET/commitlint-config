@@ -8,10 +8,14 @@ through a [shareable config](https://commitlint.js.org/#/concepts-shareable-conf
 
 ## Getting started
 
-1. Make sure you setup node >= 14
+1. Make sure you setup node >= 14.
 
 2. Install dependencies
 ```bash
+Node.js < 18
+$ npm i -D @commitlint/cli@17 @hdnet/commitlint-config
+
+Node.js >= 18 
 $ npm i -D @commitlint/cli @hdnet/commitlint-config
 ```
 
