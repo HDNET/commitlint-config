@@ -15,6 +15,9 @@ module.exports = {
      * @see https://commitlint.js.org/#/reference-rules
      */
     rules: {
+        // Do not restrict line length in message body
+        'body-max-line-length': [0],
+
         // Warn when missing project key is missing, but do not enforce (there may be cases without existing key).
         'references-empty': [1, 'never'],
 
