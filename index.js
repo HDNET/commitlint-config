@@ -27,6 +27,9 @@ module.exports = {
         // Subjects are sentences and begin uppercase
         'subject-case': [2, 'always', ['sentence-case']],
 
+        // Subject does not have full stop
+        'subject-full-stop': [2, 'never', '.'],
+
         // Need of more types like: "dx", "types"
         'type-enum': [
             2,
