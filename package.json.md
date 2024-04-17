@@ -4,7 +4,7 @@
 > requiring explanation.
 
 - [scripts](https://docs.npmjs.com/cli/v7/configuring-npm/package-json#scripts)
-    - `prepare` Installs git hooks with husky. If install fails, it omits npm error
-      (i.e. when installed with `npm install --omit=dev` and husky can not be found)
-      through husky's suggested disabled ci settings
-      (see: [disable husky with custom script](https://typicode.github.io/husky/#/?id=with-a-custom-script)).
+  - `prepare` Installs git hooks with husky. In production and CI, it omits an error
+    (i.e. husky can not be found when installed with `npm install --omit=dev`)
+    through husky's suggested disabled ci settings
+    (see: [ci-server-and-docker](https://typicode.github.io/husky/how-to.html#ci-server-and-docker).
