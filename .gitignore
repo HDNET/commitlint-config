@@ -16,3 +16,6 @@ Thumbs.db
 
 # Builds
 dist/
+
+.hdnet
+.npmrc
