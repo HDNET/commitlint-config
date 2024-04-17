@@ -21,9 +21,9 @@ For Node.js < 20:
 $ npm i -D @commitlint/cli@18 @hdnet/commitlint-config@0
 ```
 
-3. Create commitlint config (i.e. `commitlint.config.js`) and extend from @hdnet/commitlint-config:
+3. Create commitlint config (i.e. `commitlint.config.mjs`) and extend from @hdnet/commitlint-config:
 ```javascript
-module.exports = {
+export default {
     extends: '@hdnet',
 
     parserPreset: {

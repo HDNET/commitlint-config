@@ -3,6 +3,7 @@
     "version": "0.2.0",
     "description": "HDNET commitlint-config, implementing HSR-3",
     "author": "HDNET",
+    "type": "module",
     "engines": {
         "node": ">=20.11.0"
     },
@@ -23,13 +24,13 @@
         "prepare": "husky || exit 0"
     },
     "dependencies": {
-        "@commitlint/config-conventional": "^18.4.3"
+        "@commitlint/config-conventional": "^19.2.2"
     },
     "peerDependencies": {
-        "@commitlint/lint": ">= 17"
+        "@commitlint/lint": ">= 19"
     },
     "devDependencies": {
-        "@commitlint/cli": "^18.4.3",
+        "@commitlint/cli": "^19.2.2",
         "husky": "^9.0.11"
     }
 }

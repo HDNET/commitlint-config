@@ -1,6 +1,6 @@
-const { rules } = require('./index.js')
+import hdnetCommitlintRules from './index.js'
 
-module.exports = {
+export default {
     extends: '@commitlint/config-conventional',
 
     parserPreset: {
@@ -9,5 +9,5 @@ module.exports = {
         },
     },
 
-    rules,
+    rules: hdnetCommitlintRules.rules,
 }
