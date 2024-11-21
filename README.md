@@ -2,7 +2,7 @@
 
 This packages defines the strict implementation of the HDNET Commit Message Guidelines
 from the HDNET Standard Recommendations
-([HSR-3](https://wiki.hdnet.de/display/OPS/HSR-3%3A+Git+Commit-Messages)) as npm package
+([HSR-3](https://hdgroup.atlassian.net/wiki/spaces/OPS/pages/45940834/HSR-3+Git+Commit-Messages)) as npm package
 using [commitlint](https://commitlint.js.org/)
 through a [shareable config](https://commitlint.js.org/#/concepts-shareable-config).
 
