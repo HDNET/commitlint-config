@@ -8,7 +8,7 @@ export default {
     /**
      * Main documentation of HDNET's HSR-3 (Git Commit Messages)
      */
-    helpUrl: 'https://wiki.hdnet.de/display/OPS/HSR-3%3A+Git+Commit-Messages',
+    helpUrl: 'https://hdgroup.atlassian.net/wiki/spaces/OPS/pages/45940834/HSR-3+Git+Commit-Messages',
 
     /**
      * Adapting rules for HSR-3
