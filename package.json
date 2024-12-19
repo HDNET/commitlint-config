@@ -1,6 +1,6 @@
 {
     "name": "@hdnet/commitlint-config",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "HDNET commitlint-config, implementing HSR-3",
     "author": "HDNET",
     "type": "module",
