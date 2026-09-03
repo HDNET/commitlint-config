@@ -8,17 +8,20 @@ through a [shareable config](https://commitlint.js.org/#/concepts-shareable-conf
 
 ## Getting started
 
-1. Ideally, setup Node.js >= 20.
+1. Ideally, setup Node.js >= 22.12.
 
 2. Install dependencies
 ```bash
 $ npm i -D @commitlint/cli @hdnet/commitlint-config
 
-For Node.js < 18:
-$ npm i -D @commitlint/cli@17 @hdnet/commitlint-config@0
+For Node.js < 22:
+$ npm i -D @commitlint/cli@20 @hdnet/commitlint-config@1
 
 For Node.js < 20:
 $ npm i -D @commitlint/cli@18 @hdnet/commitlint-config@0
+
+For Node.js < 18:
+$ npm i -D @commitlint/cli@17 @hdnet/commitlint-config@0
 ```
 
 3. Create commitlint config (i.e. `commitlint.config.mjs`) and extend from @hdnet/commitlint-config:

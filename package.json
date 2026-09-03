@@ -5,7 +5,7 @@
     "author": "HDNET",
     "type": "module",
     "engines": {
-        "node": ">=20.11.0"
+        "node": ">=22.12"
     },
     "keywords": [
         "commitlint",
@@ -24,13 +24,13 @@
         "prepare": "husky || exit 0"
     },
     "dependencies": {
-        "@commitlint/config-conventional": "^19.2.2"
+        "@commitlint/config-conventional": "^21.2.0"
     },
     "peerDependencies": {
-        "@commitlint/lint": ">= 19"
+        "@commitlint/lint": ">= 21"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.2.2",
-        "husky": "^9.0.11"
+        "@commitlint/cli": "^21.2.2",
+        "husky": "^9.1.7"
     }
 }
